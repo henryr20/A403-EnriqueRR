@@ -21,7 +21,9 @@ public class Main {
             sc.nextLine();
 
             switch (opcion) {
-                
+                case 2:
+                    gestor.mostrarTareas();
+                    break;
             }
 
         } while (opcion != 0);
