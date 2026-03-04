@@ -21,10 +21,14 @@ public class Main {
             sc.nextLine();
 
             switch (opcion) {
+                
                 case 1:
                     System.out.println("Introduce la descripción:");
                     String texto = sc.nextLine();
                     gestor.añadirTarea(texto);
+                    
+                case 2:
+                    gestor.mostrarTareas();
                     break;
             }
 
