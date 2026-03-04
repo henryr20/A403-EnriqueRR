@@ -14,6 +14,6 @@ Aplicación de consola para gestionar tareas.
 - GitHub
 - Javadoc
 
-## Autores
+## Autor
 
-Alumno A y Alumno B
+Enrique J. Romero Ramírez
