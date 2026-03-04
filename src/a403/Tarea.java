@@ -22,7 +22,9 @@ public class Tarea {
         this.completada = completada;
     }
 
+    @Override
     public String toString() {
-        return (completada ? "[X] " : "[ ] ") + descripcion;
+        return descripcion + " - " + (completada ? "Completada" : "Pendiente");
     }
 }
+
