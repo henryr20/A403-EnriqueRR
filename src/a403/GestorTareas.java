@@ -10,7 +10,10 @@ public class GestorTareas {
         lista = new ArrayList<>();
     }
 
-    
+    public void añadirTarea(String descripcion) {
+        Tarea t = new Tarea(descripcion);
+        lista.add(t);
+    }    
 
     public ArrayList<Tarea> getLista() {
         return lista;
